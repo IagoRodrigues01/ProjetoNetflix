@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+#logo{
+    width: 150px;
+    padding: 5px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+#container {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(assets/images/BR-pt-20230821-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 30px;
+}
+
+
+
+body{
+    background-color: black;
+    font-family: Oswald,sans-serif;
+}
+
+select{
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.432);
+
+
+}
+
+
+#btn-enter{
+    padding: 7px 15px;
+    font-size: 14px;
+    background-color: rgb(250, 38, 38);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 12px;
+    
+}   
+
+#titulo-main{
+   color: white;
+   font-size: 52px; 
+   margin-top: 50px;
+
+}
+
+#main{
+    color: white;
+    margin-top: 40px;
+    margin-left: 170px;
+   
+
+}
+
+#subtituto{
+    margin-left: 320px;
+    font-size: 22px;
+}
+#centralizar{
+    margin-left: 340px;
+    font-size: 42px;
+}
+
+#subs{
+    margin-left: 230px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="Email"] {
+    width: 450px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: 25px;
+    color: white;
+    margin-left: 180px;
+    border-color: white;
+    border:2px;
+    text-align: center;
+   
+  }
+
+  #btn-start{
+    margin-left: 10px;
+    width: 160px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
